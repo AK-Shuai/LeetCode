@@ -1,4 +1,4 @@
-# 快速排序的四种python实现
+# 快速排序的四种python实现（原文参考）
 
 快速排序算法，简称快排，是最实用的排序算法，没有之一，各大语言标准库的排序函数也基本都是基于快排实现的。
 
@@ -89,3 +89,6 @@ def quick_sort(array, l, r):
 ```
 
 另外，当数组下标为-1时，C++、Java等语言中会报错，但python中访问的是最后一个元素，所以如果程序写错了，可能其他语言会报错，但python会输出一个错误的结果。 
+
+## 参考
+1. <a href="https://cloud.tencent.com/developer/article/1571782" target="_blank">快速排序的四种python实现</a>
