@@ -2,7 +2,7 @@
 <a href="https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/" target="_blank">剑指 Offer 09. 用两个栈实现队列</a>
 
 
-```
+```python
 class CQueue:
     def __init__(self):
         self.A, self.B = [], []
