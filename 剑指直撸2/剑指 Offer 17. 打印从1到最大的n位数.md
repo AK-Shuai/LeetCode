@@ -14,5 +14,5 @@ class Solution:
         return h
 ```
 
-**帅解**
+**帅解**：   
 <a href="https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/solution/jian-zhi-offer-17-da-yin-cong-1dao-zui-d-yrhg/" target="_blank">本人题解</a>
