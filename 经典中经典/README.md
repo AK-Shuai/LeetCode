@@ -1,5 +1,9 @@
 # 目录简介
 
+## 基本知识
+1. <a href="https://github.com/AK-Shuai/LeetCode/blob/main/%E7%BB%8F%E5%85%B8%E4%B8%AD%E7%BB%8F%E5%85%B8/%E8%B4%AA%E5%BF%83%E5%92%8C%E5%8A%A8%E6%80%81%E5%B7%AE%E5%BC%82.md" target="_blank">贪心和动态差异</a>
+
+
 ## 基本排序
 1. <a href="https://github.com/AK-Shuai/LeetCode/blob/main/%E7%BB%8F%E5%85%B8%E4%B8%AD%E7%BB%8F%E5%85%B8/%E5%9B%9B%E7%A7%8D%E5%BF%AB%E6%8E%92python.md" target="_blank">四种快排</a>
 
