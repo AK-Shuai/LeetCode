@@ -18,3 +18,21 @@ class Solution:
     def reversePrint(self, head: ListNode) -> List[int]:
         return self.reversePrint(head.next) + [head.val] if head else []
 ```
+
+```java
+class Solution {
+    ArrayList<Integer> tmp = new ArrayList<Integer>();
+    public int[] reversePrint(ListNode head) {
+        recur(head);
+        int[] res = new int[tmp.size()];
+        for(int i = 0; i < res.length; i++)
+            res[i] = tmp.get(i);
+        return res;
+    }
+    void recur(ListNode head) {
+        if(head == null) return;
+        recur(head.next);
+        tmp.add(head.val);
+    }
+}
+```

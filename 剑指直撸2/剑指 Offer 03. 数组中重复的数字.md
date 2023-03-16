@@ -15,3 +15,21 @@ class Solution:
         
         return 0
 ```
+
+
+```java
+// 用HashSet 如果插入false就退出
+class Solution {
+    public int findRepeatNumber(int[] nums) {
+        Set<Integer> set = new HashSet<Integer>();
+        int a = -1;
+        for(int num:nums){
+            if(!set.add(num)){
+                a = num;
+                break;
+            }
+        }
+        return a;
+    }
+}
+```
